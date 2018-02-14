@@ -7,6 +7,6 @@ const ExampleSchema = new mongoose.Schema({
   arr: Array
 })
 
-let ExampleModel = mongoose.model("ExampleModel", ExampleSchema);
+let ExampleModel = mongoose.model("Examples", ExampleSchema);
 
 module.exports = {model: ExampleModel, schema: ExampleSchema}

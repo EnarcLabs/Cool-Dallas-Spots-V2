@@ -10,6 +10,6 @@ let PlaceSchema = new mongoose.Schema({
   tags: Array
 })
 
-let PlaceModel = mongoose.model('PlaceModel', PlaceSchema);
+let PlaceModel = mongoose.model('Places', PlaceSchema);
 
 module.exports = {model: PlaceModel, schema: PlaceSchema}
