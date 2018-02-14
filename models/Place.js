@@ -7,7 +7,11 @@ let PlaceSchema = new mongoose.Schema({
     longitude: String,
     latitude: String
   },
-  tags: Array
+  tags: Array,
+  upvotes: {
+    type: Number,
+    required: false
+  }
 })
 
 let PlaceModel = mongoose.model('Places', PlaceSchema);
