@@ -14,11 +14,13 @@
 let users = require('./users')
 let root = require('./root')
 let example = require('./example')
+let api = require('./api')
 // Add them to Users
 let Routes = {
   users,
   root,
-  example
+  example,
+  api
 };
 
 module.exports = Routes;

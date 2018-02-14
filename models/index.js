@@ -13,9 +13,10 @@
 */
 
 let Place = require('./Place')
-
+let Example = require('./Example')
 var Models = {
-  Place
+  Place,
+  Example
 }
 
 module.exports = Models;
